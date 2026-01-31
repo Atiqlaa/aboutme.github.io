@@ -1,0 +1,47 @@
+
+  
+#foot  a {
+    text-decoration: none;
+    color:white;
+ 
+  }
+  #foot p{
+    position:relative;
+    left:120;
+    bottom:22;
+    font-weight: bold;
+  }
+  
+  
+#foot  li{
+    margin-left:10px;
+  }
+  
+#foot  ul{
+    display: flex;
+    list-style-type: none;
+  }
+  
+  #foot img{
+    border-radius: 20%;
+    width:30px;
+    position:relative;
+    left:80px;
+  }
+  
+  #foot{
+    position:fixed; 
+    height:30px;
+    padding:10px 8px;
+    background-color: grey;
+    bottom:0px;
+    width:100%;
+    right:0px;
+  }
+  
+  *{
+    
+    margin:0px;
+    padding:0px;
+  }
+ 

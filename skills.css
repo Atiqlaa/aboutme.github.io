@@ -1,0 +1,83 @@
+#bt2{
+  background-color: #A0AECD;
+}
+
+#skills-title{
+  
+  font-size:30px;
+  font-family: Courier;
+  font-weight: bold;
+  margin-bottom:50px;
+}
+
+@keyframes skills{
+  from{opacity:0}
+  
+  to{opacity:1}
+}
+
+#skills{
+  
+  animation-name: skills;
+  animation-duration: 2s;
+  margin-top:80px;
+  position: relative;
+  left:22%;
+  margin-bottom:60px;
+}
+
+#skills img{
+ 
+  width:200px;
+  
+}
+
+#header a{
+  text-decoration: none;
+}
+
+#header li:hover{
+    background-color: #A0AECD;
+  }
+  
+  #header li{
+    border:1px solid #A0AECD;
+   
+    padding:3px;
+    margin-left:5px;
+   
+  }
+  #skills li{
+    margin-bottom:10px;
+  }
+  
+  #skills ul{
+    list-style-type: none;
+    
+  }
+  
+  
+  #header ul{
+    list-style-type: none;
+    position: relative;
+    font-size: 20;
+    display: flex;
+    left:2%;
+    margin-top:5px;
+  }
+    
+    body{
+    background-image: url('https://mobimg.b-cdn.net/v3/fetch/e0/e04a36a1b9ddef842f0e77bdb158a678.jpeg');
+    background-size: 500px;
+    background-color: black;
+    
+    background-repeat: no-repeat;
+  }
+  
+    *{
+    font-family:Courier New;
+    color:white;
+    margin:0;
+    padding:0;
+    
+  

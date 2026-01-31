@@ -1,0 +1,87 @@
+
+#myworks2{
+  margin-top:50px;
+}
+
+#title2,#title1{
+  text-align:center;
+  color: black;
+  font-weight: bold;
+}
+
+#myworks1 p, #myworks2 p{
+  color:black;
+  font-size: 20px;
+}
+
+#myworks2 li,#myworks1 li{
+  color:black;
+  position: relative;
+  left:15px;
+}
+
+@keyframes myworks{
+  from{position:relative;opacity:0;right:300px;}
+  
+  to{position:relative;opacity:1;right:-0px;}
+}
+
+#myworks1,#myworks2{
+  border-radius: 10px;
+  color: black;
+  position: relative;
+  top:60px;
+  background-color: white;
+  width:330px;
+  left:15px;
+  animation-name: myworks;
+  animation-duration: 4s;
+}
+
+#title2{
+  margin-top:50px;
+}
+
+#bt3{
+  background-color: #A0AECD;
+}
+
+#header a{
+  text-decoration: none;
+}
+
+#header li:hover{
+    background-color: #A0AECD;
+  }
+  
+  #header li{
+    border:1px solid #A0AECD;
+   
+    padding:3px;
+    margin-left:5px;
+   
+  }
+  
+  
+  #header ul{
+    list-style-type: none;
+    position: relative;
+    font-size: 20;
+    display: flex;
+    left:2%;
+    margin-top:5px;
+  }
+    
+    body{
+    background-image: url('https://mobimg.b-cdn.net/v3/fetch/e0/e04a36a1b9ddef842f0e77bdb158a678.jpeg');
+    background-size: 500px;
+    background-color: black;
+    
+    background-repeat: no-repeat;
+  }
+  
+    *{
+    font-family:Courier New;
+    color:white;
+    margin:0;
+    padding:0;
